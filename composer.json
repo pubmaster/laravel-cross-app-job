@@ -1,0 +1,20 @@
+{
+  "name": "pubmaster/laravel-cross-app-job",
+  "description": "Job for dispatching another job in second laravel app",
+  "license": ["MIT"],
+  "authors": [
+    {
+      "name": "Vladimir Potapenko",
+      "email": "potapenko-va@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "~7.1",
+    "laravel/laravel": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "CrossAppJob\\": "src/"
+    }
+  }
+}
